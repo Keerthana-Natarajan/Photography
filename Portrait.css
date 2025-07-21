@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+.navbar {
+    background-color: rgba(159, 155, 155, 0.5); 
+}
+
+
+
+ 
+
+
+.snap{
+    height: 100%;
+    margin-top: 13px;
+    
+}
+.para{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    }
+    .column{
+        grid-column: span 3;
+        width: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    
+html,body {
+    overflow-x: hidden;
+}
+      
+
+
+      .contact{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 3px;
+    }
+    
+footer .line{
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    height: 50px;
+   margin-left: 300px;
+}
+    
+    footer p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        word-spacing: 5px;
+        
+    }
